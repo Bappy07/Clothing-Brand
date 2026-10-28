@@ -10,14 +10,14 @@ const categories = [
 
 export default function Navbar() {
   return (
-    <div className="navbar border-b border-gray-200 bg-white px-4 shadow-sm sm:px-6">
+    <div className="navbar  border-gray-200 bg-white px-4  sm:px-6">
       {/* Brand */}
       <div className="navbar-start">
         <Link
           href="/"
           className="text-2xl font-bold tracking-[0.2em] text-black"
         >
-          ROVYN
+          ROVYN<span className="text-blue-700 text-5xl">.</span>
         </Link>
       </div>
 
@@ -28,7 +28,7 @@ export default function Navbar() {
             <li key={category.href}>
               <Link
                 href={category.href}
-                className="font-medium text-gray-700 hover:bg-gray-100 hover:text-black"
+                className="font-bold text-black hover:bg-gray-100 hover:text-black"
               >
                 {category.name}
               </Link>
@@ -41,15 +41,15 @@ export default function Navbar() {
       <div className="navbar-end hidden gap-2 lg:flex">
         <Link
           href="/signin"
-          className="btn bg-gray-400
-           text-black"
+          className="btn  bg-black border-0
+           text-gray-400"
         >
           Sign In
         </Link>
 
         <Link
           href="/signup"
-          className="btn bg-green-200 text-white hover:bg-gray-800"
+          className="btn bg-gray-600 border-0 text-gray-300 hover:bg-gray-800"
         >
           Sign Up
         </Link>

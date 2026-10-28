@@ -19,9 +19,10 @@ export default function Productsgrid({
         <figure>
           <img src ={product.image || "/placeholder.png"} alt={product.name}/>
         </figure>
+        <h2></h2>
       <div className="card-body">
         <h2 className="card-title">{product.name}</h2>
-        <p>{product.price}</p>
+        <p className="font-bold">Price: ${product.price}</p>
 
       </div>
 

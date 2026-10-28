@@ -6,11 +6,21 @@ const productGroups = [
     category: "tshirt",
     categoryName: "T-Shirt",
     names: [
-      "Classic Crew Neck", "Oversized Fit", "Premium Plain",
-      "Graphic Print", "Polo T-Shirt", "Striped T-Shirt",
-      "V-Neck T-Shirt", "Heavy Cotton", "Minimalist Tee",
-      "Relaxed Fit", "Vintage Wash", "Drop Shoulder",
-      "Pocket T-Shirt", "Sports T-Shirt", "Basic Essential",
+      "Classic Crew Neck",
+      "Oversized Fit",
+      "Premium Plain",
+      "Graphic Print",
+      "Polo T-Shirt",
+      "Striped T-Shirt",
+      "V-Neck T-Shirt",
+      "Heavy Cotton",
+      "Minimalist Tee",
+      "Relaxed Fit",
+      "Vintage Wash",
+      "Drop Shoulder",
+      "Pocket T-Shirt",
+      "Sports T-Shirt",
+      "Basic Essential",
     ],
     prices: [
       450, 650, 550, 700, 600, 500, 480, 750, 580, 620,
@@ -21,53 +31,95 @@ const productGroups = [
     category: "shirt",
     categoryName: "Shirt",
     names: [
-      "Casual Oxford", "Formal Slim Fit", "Linen Casual",
-      "Check Pattern", "Denim Shirt", "Striped Casual",
-      "Flannel Shirt", "Printed Shirt", "Office Formal",
-      "Mandarin Collar", "Short Sleeve", "Classic Button Down",
-      "Relaxed Fit Shirt", "Solid Color Shirt", "Textured Shirt",
+      "Casual Oxford",
+      "Formal Slim Fit",
+      "Linen Casual",
+      "Check Pattern",
+      "Denim Shirt",
+      "Striped Casual",
+      "Flannel Shirt",
+      "Printed Shirt",
+      "Office Formal",
+      "Mandarin Collar",
+      "Short Sleeve",
+      "Classic Button Down",
+      "Relaxed Fit Shirt",
+      "Solid Color Shirt",
+      "Textured Shirt",
     ],
     prices: [
-      950, 1200, 1100, 850, 1300, 900, 1050, 1000, 1250, 950,
-      750, 1150, 1000, 850, 1200,
+      950, 1200, 1100, 850, 1300, 900, 1050, 1000, 1250,
+      950, 750, 1150, 1000, 850, 1200,
     ],
   },
   {
     category: "jeans",
     categoryName: "Jeans",
     names: [
-      "Slim Fit Jeans", "Regular Fit Jeans", "Straight Leg Jeans",
-      "Skinny Fit Jeans", "Relaxed Fit Jeans", "Tapered Jeans",
-      "Distressed Jeans", "Dark Blue Jeans", "Black Denim Jeans",
-      "Light Wash Jeans", "Classic Blue Jeans", "Stretch Denim",
-      "Baggy Fit Jeans", "Vintage Denim", "Ripped Jeans",
+      "Slim Fit Jeans",
+      "Regular Fit Jeans",
+      "Straight Leg Jeans",
+      "Skinny Fit Jeans",
+      "Relaxed Fit Jeans",
+      "Tapered Jeans",
+      "Distressed Jeans",
+      "Dark Blue Jeans",
+      "Black Denim Jeans",
+      "Light Wash Jeans",
+      "Classic Blue Jeans",
+      "Stretch Denim",
+      "Baggy Fit Jeans",
+      "Vintage Denim",
+      "Ripped Jeans",
     ],
     prices: [
-      1500, 1400, 1600, 1450, 1700, 1550, 1800, 1500, 1650,
-      1550, 1400, 1750, 1850, 1900, 1800,
+      1500, 1400, 1600, 1450, 1700, 1550, 1800, 1500,
+      1650, 1550, 1400, 1750, 1850, 1900, 1800,
     ],
   },
   {
     category: "cotton-pants",
     categoryName: "Cotton Pants",
     names: [
-      "Slim Fit Cotton", "Regular Fit Chinos", "Relaxed Cotton",
-      "Straight Fit Pants", "Formal Cotton Pants", "Tapered Chinos",
-      "Casual Cotton Pants", "Stretch Cotton Pants", "Pleated Pants",
-      "Classic Khaki Pants", "Black Cotton Pants", "Olive Chinos",
-      "Beige Cotton Pants", "Cargo Cotton Pants", "Everyday Chinos",
+      "Slim Fit Cotton",
+      "Regular Fit Chinos",
+      "Relaxed Cotton",
+      "Straight Fit Pants",
+      "Formal Cotton Pants",
+      "Tapered Chinos",
+      "Casual Cotton Pants",
+      "Stretch Cotton Pants",
+      "Pleated Pants",
+      "Classic Khaki Pants",
+      "Black Cotton Pants",
+      "Olive Chinos",
+      "Beige Cotton Pants",
+      "Cargo Cotton Pants",
+      "Everyday Chinos",
     ],
     prices: [
-      1100, 1250, 1300, 1150, 1400, 1350, 1000, 1450, 1500,
-      1200, 1250, 1350, 1200, 1600, 1100,
+      1100, 1250, 1300, 1150, 1400, 1350, 1000, 1450,
+      1500, 1200, 1250, 1350, 1200, 1600, 1100,
     ],
   },
 ];
 
 const colors = [
-  "Black", "White", "Navy Blue", "Olive", "Beige",
-  "Grey", "Maroon", "Sky Blue", "Brown", "Charcoal",
-  "Cream", "Forest Green", "Blue", "Khaki", "Burgundy",
+  "Black",
+  "White",
+  "Navy Blue",
+  "Olive",
+  "Beige",
+  "Grey",
+  "Maroon",
+  "Sky Blue",
+  "Brown",
+  "Charcoal",
+  "Cream",
+  "Forest Green",
+  "Blue",
+  "Khaki",
+  "Burgundy",
 ];
 
 const sizes = ["S", "M", "L", "XL", "XXL"];
@@ -99,26 +151,97 @@ const productImages: Record<string, string[]> = {
   ],
 };
 
+const productVariations = [
+  "Classic Edition",
+  "Premium Edition",
+  "Essential Edition",
+  "Modern Edition",
+  "Vintage Edition",
+  "Relaxed Edition",
+  "Urban Edition",
+  "Minimal Edition",
+  "Signature Edition",
+  "Everyday Edition",
+  "Slim Edition",
+  "Oversized Edition",
+  "Comfort Edition",
+  "Streetwear Edition",
+  "Luxury Edition",
+  "Casual Edition",
+  "Textured Edition",
+  "Summer Edition",
+  "Winter Edition",
+  "Limited Edition",
+  "Soft Touch",
+  "Daily Wear",
+  "Contemporary Fit",
+  "Heritage Edition",
+  "Essential Plus",
+  "Modern Fit",
+  "Classic Plus",
+  "Premium Comfort",
+  "Urban Classic",
+  "Weekend Edition",
+  "Active Edition",
+  "Clean Cut",
+  "Relaxed Comfort",
+  "Signature Fit",
+  "Timeless Edition",
+  "Minimal Plus",
+  "Smart Casual",
+  "Everyday Premium",
+  "Refined Edition",
+  "Core Collection",
+  "Studio Edition",
+  "Street Classic",
+  "Comfort Plus",
+  "Modern Essential",
+  "Daily Classic",
+  "Premium Basic",
+  "Tailored Edition",
+  "Urban Comfort",
+  "Fresh Collection",
+  "Essential Fit",
+];
+
 const products = productGroups.flatMap((group, groupIndex) =>
-  group.names.map((name, index) => {
-    const id = groupIndex * 15 + index + 1;
+  Array.from({ length: 65 }, (_, index) => {
+    const baseIndex = index % group.names.length;
+    const variationIndex = Math.floor(index / group.names.length);
+    const baseName = group.names[baseIndex];
+
+    const variation =
+      index < group.names.length
+        ? ""
+        : ` ${productVariations[variationIndex - 1]}`;
+
+    const color = colors[index % colors.length];
+    const id = groupIndex * 65 + index + 1;
+
+    const basePrice = group.prices[baseIndex];
+    const price = basePrice + variationIndex * 50;
+
+    const imageUrl = productImages[group.category][index % 4];
 
     return {
       id,
-      name: `${name} - ${colors[index]}`,
+      name: `${baseName}${variation} - ${color}`,
       slug: `${group.category}-${index + 1}`,
       category: group.category,
       categoryName: group.categoryName,
-      price: group.prices[index],
+      price,
       currency: "BDT",
-      color: colors[index],
-      sizes,
-      image: productImages[group.category][index % 4],
-      description: `Comfortable ${name.toLowerCase()} for everyday wear.`,
+      color,
+      sizes: [...sizes],
+      image: imageUrl.replace(
+        "?w=600",
+        "?w=600&h=750&fit=crop",
+      ),
+      description: `${baseName}${variation}, designed for comfortable everyday wear.`,
       stock: 10 + index * 2,
-      featured: index < 3,
+      featured: index < 6,
     };
-  })
+  }),
 );
 
 export async function GET(request: Request) {
@@ -126,13 +249,17 @@ export async function GET(request: Request) {
 
   const category = searchParams.get("category");
   const search = searchParams.get("search")?.toLowerCase();
-  const limit = Number(searchParams.get("limit")) || products.length;
+  const requestedLimit = Number(searchParams.get("limit"));
+  const limit =
+    Number.isFinite(requestedLimit) && requestedLimit > 0
+      ? Math.floor(requestedLimit)
+      : products.length;
 
   let result = products;
 
   if (category) {
     result = result.filter(
-      (product) => product.category === category
+      (product) => product.category === category,
     );
   }
 
@@ -141,11 +268,11 @@ export async function GET(request: Request) {
       (product) =>
         product.name.toLowerCase().includes(search) ||
         product.categoryName.toLowerCase().includes(search) ||
-        product.color.toLowerCase().includes(search)
+        product.color.toLowerCase().includes(search),
     );
   }
 
-  result = result.slice(0, Math.max(0, limit));
+  result = result.slice(0, limit);
 
   return NextResponse.json({
     success: true,
